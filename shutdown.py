@@ -51,3 +51,4 @@ class RandomLEDs(threading.Thread):
                 for i in frange(1.0, 0.0, -0.1):
                         led.value = i
                         time.sleep(speed)
+pause()
