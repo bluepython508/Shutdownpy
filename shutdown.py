@@ -1,6 +1,7 @@
 import gpiozero as IO
 from signal import pause
 from subprocess import call
+import syslog
 import time
 shutdown = IO.Button(21, pull_up=False)
 indicator = IO.PWMLED(17)
